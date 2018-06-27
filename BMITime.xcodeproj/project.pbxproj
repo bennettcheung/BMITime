@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9146567420E08C4A00C15915 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9146567320E08C4A00C15915 /* main.m */; };
+		9146567C20E08C7300C15915 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9146567B20E08C7300C15915 /* Person.m */; };
+		914656B120E3560800C15915 /* Maid.m in Sources */ = {isa = PBXBuildFile; fileRef = 914656B020E3560800C15915 /* Maid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		9146567020E08C4A00C15915 /* BMITime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BMITime; sourceTree = BUILT_PRODUCTS_DIR; };
 		9146567320E08C4A00C15915 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9146567A20E08C7300C15915 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9146567B20E08C7300C15915 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		914656AF20E3560800C15915 /* Maid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Maid.h; sourceTree = "<group>"; };
+		914656B020E3560800C15915 /* Maid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Maid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				9146567320E08C4A00C15915 /* main.m */,
+				914656AF20E3560800C15915 /* Maid.h */,
+				914656B020E3560800C15915 /* Maid.m */,
+				9146567A20E08C7300C15915 /* Person.h */,
+				9146567B20E08C7300C15915 /* Person.m */,
 			);
 			path = BMITime;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				914656B120E3560800C15915 /* Maid.m in Sources */,
+				9146567C20E08C7300C15915 /* Person.m in Sources */,
 				9146567420E08C4A00C15915 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

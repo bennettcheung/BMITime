@@ -7,11 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        // Create an instance of Person
+        Person *person = [[Person alloc] init];
+        // Give the instance variables interesting values
+        person.eyeColor = @"blue";
+        
     }
     return 0;
 }
