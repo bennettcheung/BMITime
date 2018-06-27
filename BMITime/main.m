@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Person.h"
+#import "Maid.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -16,6 +17,10 @@ int main(int argc, const char * argv[]) {
         // Give the instance variables interesting values
         person.eyeColor = @"blue";
         
+        Maid *maid = [[Maid alloc] init];
+        maid.cleaningBill = 13;
+        
+        NSLog(@"The clean bill is %d", maid.cleaningBill);
     }
     return 0;
 }

@@ -9,9 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface Maid : NSObject
-{
-    int _cleaningBill;
-}
-- (void)setCleaningBill:(int)cleaningBill;
-- (int)cleaningBill;
+@property int cleaningBill;
+
 @end
