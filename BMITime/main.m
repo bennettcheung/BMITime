@@ -9,18 +9,21 @@
 #import <Foundation/Foundation.h>
 #import "Person.h"
 #import "Maid.h"
+#import "Employee.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // Create an instance of Person
-        Person *person = [[Person alloc] init];
+        Employee *person = [[Employee alloc] init];
         // Give the instance variables interesting values
         person.eyeColor = @"blue";
+        
+        [person setEmployeeID:15];
         
         Maid *maid = [[Maid alloc] init];
         maid.cleaningBill = 13;
         
-        NSLog(@"The clean bill is %d", maid.cleaningBill);
+        NSLog(@"Employee %d ", [person employeeID]);
     }
     return 0;
 }
